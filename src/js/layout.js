@@ -8,7 +8,7 @@ import injectContext from "./store/appContext";
 import { AboutMe } from "./views/AboutMe";
 import { Contact } from "./views/Contact";
 
-import { NavbarComp } from "./component/navbarComp";
+import { NavbarComp } from "./component/NavbarComp";
 import { Footer } from "./component/footer";
 
 //create your first component
