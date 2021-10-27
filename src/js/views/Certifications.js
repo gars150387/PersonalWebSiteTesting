@@ -1,14 +1,6 @@
 import React from "react";
 import { CardComp } from "../component/CardComp";
-import { DataCertifications } from "../component/DataCertifications";
 
-export const Certifications = () => {
-	return (
-		<>
-			{DataCertifications &&
-				DataCertifications.map(e => {
-					return <CardComp />;
-				})}
-		</>
-	);
+export const Certifications = item => {
+	return <CardComp key={item.title} />;
 };

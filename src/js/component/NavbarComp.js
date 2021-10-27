@@ -19,6 +19,14 @@ export const NavbarComp = () => {
 						<Link to="/projects">
 							<Nav.Link href="#projects">Projects</Nav.Link>
 						</Link>
+						<Nav>
+							<Link to="/certifications">
+								<Nav.Link href="#certifications">Certifications</Nav.Link>
+							</Link>
+							<Link to="/contact">
+								<Nav.Link href="#contact">Contact</Nav.Link>
+							</Link>
+						</Nav>
 						<NavDropdown title="GitHub" id="collasible-nav-dropdown">
 							<NavDropdown.Item href="https://github.com/gars150387/Contact_list_Flux_API_BasedOnArticle">
 								Contact List
@@ -34,14 +42,6 @@ export const NavbarComp = () => {
 								Random Excuse Exercise
 							</NavDropdown.Item>
 						</NavDropdown>
-					</Nav>
-					<Nav>
-						<Link to="/certifications">
-							<Nav.Link href="#certifications">Certifications</Nav.Link>
-						</Link>
-						<Link to="/contact">
-							<Nav.Link href="#contact">Contact</Nav.Link>
-						</Link>
 					</Nav>
 				</Navbar.Collapse>
 			</Container>
