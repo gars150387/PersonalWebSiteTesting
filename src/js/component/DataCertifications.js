@@ -32,14 +32,14 @@ export const DataCertifications = [
 	},
 	{
 		id: "005",
-		title: "",
+		title: "React Building an Interface",
 		company: "LinkedIn Learning",
 		link: "",
 		img: "/.jpg"
 	},
 	{
 		id: "006",
-		title: "",
+		title: "React Design Patterns",
 		company: "LinkedIn Learning",
 		link: "",
 		img: "/.jpg"

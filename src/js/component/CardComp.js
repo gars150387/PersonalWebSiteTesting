@@ -4,7 +4,7 @@ import { Card, Button } from "react-bootstrap";
 export const CardComp = ({ title, company, img, link }) => {
 	return (
 		<>
-			<Card style={{ width: "18rem" }} key={link}>
+			<Card style={{ width: "18rem" }} key={id}>
 				<Card.Img variant="top" src={`${img}`} />
 				<Card.Body>
 					<Card.Title>{title}</Card.Title>
