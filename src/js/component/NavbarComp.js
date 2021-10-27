@@ -44,6 +44,9 @@ export const NavbarComp = () => {
 							<NavDropdown.Item href="https://github.com/gars150387/random-excuse-exercise-javascript">
 								Random Excuse Exercise
 							</NavDropdown.Item>
+							<NavDropdown.Item href="https://github.com/gars150387/random-card-generated">
+								Random Card Generator Exercise
+							</NavDropdown.Item>
 							<NavDropdown.Item href="https://github.com/gars150387/traffic-light-exercise-react">
 								Traffic Light Exercise
 							</NavDropdown.Item>
