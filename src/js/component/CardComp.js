@@ -3,20 +3,14 @@ import { Card, Button } from "react-bootstrap";
 import { DataCertifications } from "./DataCertifications";
 import "../../img/BecomeAReactDeveloper.jpg";
 import "../../img/BuildAGoogleMapAppWithJavascript.jpg";
-// import "../../img/DevelopingACriticalMindset.jpg";
 import "../../img/FirebaeEssentialTraining.jpg";
 import "../../img/JavascriptCodeChallenges.jpg";
-import "../../img/NodejsEssentialTraining.jpg";
-// import "../../img/React Creating and Hosting a Full Stack Site.PNG";
-import "../../img/React.jsEssentialTraining.jpg";
 import "../../img/ReactBuildingAnInterface.jpg";
 import "../../img/ReactComponentsContextAndAccessibility.jpg";
-import "../../img/ReactDesignPatterns.jpg";
 import "../../img/ReactEcosystems.jpg";
 import "../../img/ReactHooks.jpg";
-// import "../../img/ReactDesignPatternscertification.jpg";
 
-export const CardComp = props => {
+export const CardComp = ({ title, company, link, img }) => {
 	return (
 		<>
 			{DataCertifications.map(index => {
@@ -24,11 +18,11 @@ export const CardComp = props => {
 					<ul key={index}>
 						<li className="m-auto">
 							<Card md={6} className="m-auto" style={{ width: "18rem" }}>
-								<Card.Img variant="top" src={`./${this.img}.jpg`} />
+								<Card.Img variant="top" src={`./${img}.jpg`} />
 								<Card.Body>
-									<Card.Title>{this.title}</Card.Title>
-									<Card.Text>{this.company}</Card.Text>
-									<Button variant="primary" href={this.link}>
+									<Card.Title>{title}</Card.Title>
+									<Card.Text>{company}</Card.Text>
+									<Button variant="primary" href={link}>
 										Click and Check it out
 									</Button>
 								</Card.Body>
