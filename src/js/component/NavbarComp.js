@@ -7,12 +7,12 @@ export const NavbarComp = () => {
 	return (
 		<Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
 			<Container>
-				<Navbar.Brand href="#home">
+				<Navbar.Brand href="#home" position="top-start">
 					<Link to="/">Gustavo Rodriguez</Link>
 				</Navbar.Brand>
 				<Navbar.Toggle aria-controls="responsive-navbar-nav" />
-				<Navbar.Collapse id="responsive-navbar-nav">
-					<Nav className="me-auto justify-content-end">
+				<Navbar.Collapse id="responsive-navbar-nav" position="top-end">
+					<Nav className="mr-5">
 						<Link to="/aboutMe">
 							<Nav.Link href="#aboutMe">About Me</Nav.Link>
 						</Link>
