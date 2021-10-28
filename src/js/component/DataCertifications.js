@@ -42,8 +42,9 @@ export const DataCertifications = [
 		id: "006",
 		title: "Developing a critical thinking mindset",
 		company: "LinkedIn Learning",
-		href: "",
-		img: "DelepingACriticalThinkingMindset"
+		href:
+			"https://www.linkedin.com/learning/developing-a-critical-thinking-mindset/benefits-of-a-critical-thinking-mindset?autoAdvance=true&autoSkip=false&autoplay=true&resume=true&u=107513458",
+		img: "DevelopingACriticalThinkingMindset"
 	},
 	{
 		id: "007",
@@ -64,21 +65,24 @@ export const DataCertifications = [
 		id: "009",
 		title: "React Hooks",
 		company: "LinkedIn Learning",
-		href: "",
+		href:
+			"https://www.linkedin.com/learning/react-hooks/understanding-modern-react?autoAdvance=true&autoSkip=false&autoplay=true&resume=true&u=107513458",
 		img: "ReactHooks"
 	},
 	{
 		id: "010",
 		title: "React Ecosystems",
 		company: "LinkedIn Learning",
-		href: "",
+		href:
+			"https://www.linkedin.com/learning/react-ecosystems/welcome?autoAdvance=true&autoSkip=false&autoplay=true&resume=true&u=107513458",
 		img: "ReactEcosystems"
 	},
 	{
 		id: "011",
 		title: "React Components Context and Accessibility",
 		company: "LinkedIn Learning",
-		href: "",
+		href:
+			"https://www.linkedin.com/learning/react-components-context-and-accessibility/welcome?autoAdvance=true&autoSkip=false&autoplay=true&resume=true&u=107513458",
 		img: "ReactComponentsContextAndAccessibility"
 	},
 	{
@@ -100,7 +104,8 @@ export const DataCertifications = [
 		id: "014",
 		title: "React Essential Training",
 		company: "LinkedIn Learning",
-		href: "",
+		href:
+			"https://www.linkedin.com/learning/react-js-essential-training/building-modern-user-interfaces-with-react?autoAdvance=true&autoSkip=false&autoplay=true&resume=true&u=107513458",
 		img: "ReactEssentialTraining"
 	}
 ];
