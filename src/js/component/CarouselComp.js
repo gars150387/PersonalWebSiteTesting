@@ -6,9 +6,9 @@ export const CarouselComp = () => {
 		<Carousel>
 			<Carousel.Item>
 				<img
-					className="d-block m-auto text=First slide bg-success"
+					className="d-block w-50 h-75 m-auto text=First slide bg-success"
 					style={{ width: "400", height: "400" }}
-					src="./1624373134895.jpg"
+					src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSshDboirtTQFcxr3LX1qb7Z6OgzBz3lui4_w&usqp=CAU"
 					alt="First slide"
 				/>
 				<Carousel.Caption>
@@ -18,9 +18,9 @@ export const CarouselComp = () => {
 			</Carousel.Item>
 			<Carousel.Item>
 				<img
-					className="d-block m-auto text=Second slide bg-dark"
-					style={{ width: "400", height: "400" }}
-					src="./gustavo-san-francisco.jpg"
+					className="d-block w-50 h-75 m-auto text=Second slide bg-dark"
+					style={{ width: "800", height: "600" }}
+					src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMVi6vSqfjMLE58GCEObyQNw1rkcQ4yKpsnQ&usqp=CAU"
 					alt="Second slide"
 				/>
 
@@ -31,9 +31,9 @@ export const CarouselComp = () => {
 			</Carousel.Item>
 			<Carousel.Item>
 				<img
-					className="d-block m-auto text=Third slide bg-primary"
+					className="d-block w-50 h-75 m-auto text=Third slide bg-primary"
 					style={{ width: "400", height: "400" }}
-					src="./meAndMyWife.jpg"
+					src="./rigo-baby.jpg"
 					alt="Third slide"
 				/>
 
