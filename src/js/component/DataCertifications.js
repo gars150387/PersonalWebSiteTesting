@@ -50,7 +50,8 @@ export const DataCertifications = [
 		id: "007",
 		title: "React Design Patterns",
 		company: "LinkedIn Learning",
-		href: "",
+		href:
+			"https://www.linkedin.com/learning/react-design-patterns/take-your-react-skills-to-the-next-level?autoAdvance=true&autoSkip=false&autoplay=true&resume=true&u=107513458",
 		img: "ReactDesignPatterns"
 	},
 	{
@@ -87,10 +88,11 @@ export const DataCertifications = [
 	},
 	{
 		id: "012",
-		title: "Building a Google Map App with JavaScript",
+		title: "Vanilla Javascript Client-sides Data storage",
 		company: "LinkedIn Learning",
-		href: "",
-		img: "BildingAGoogleMapAppWithJavascript"
+		href:
+			"https://www.linkedin.com/learning/vanilla-javascript-client-side-data-storage/javascript-client-side-storage-demystified?autoAdvance=true&autoSkip=false&autoplay=true&resume=true&u=107513458",
+		img: "VanillaJavacriptClientSideDataStorage"
 	},
 	{
 		id: "013",
