@@ -109,5 +109,12 @@ export const DataCertifications = [
 		href:
 			"https://www.linkedin.com/learning/react-js-essential-training/building-modern-user-interfaces-with-react?autoAdvance=true&autoSkip=false&autoplay=true&resume=true&u=107513458",
 		img: "ReactEssentialTraining"
+	},
+	{
+		id: "015",
+		title: "Full Stack Web Developer",
+		company: "Miami Dade College in partnered with 4Geeks Academy",
+		href: "https://www.mdc.edu/ce/technology/",
+		img: "FullStackWebDeveloper"
 	}
 ];
