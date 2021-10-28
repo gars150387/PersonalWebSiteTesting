@@ -5,14 +5,24 @@ export const CarouselComp = () => {
 	return (
 		<Carousel>
 			<Carousel.Item>
-				<img className="d-block w-100" src="text=First slide&bg=373940" alt="First slide" />
+				<img
+					className="d-block m-auto text=First slide bg-success"
+					style={{ width: "400", height: "400" }}
+					src=""
+					alt="First slide"
+				/>
 				<Carousel.Caption>
 					<h3>First slide label</h3>
 					<p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
 				</Carousel.Caption>
 			</Carousel.Item>
 			<Carousel.Item>
-				<img className="d-block w-100" src="holder.js/800x400?text=Second slide&bg=282c34" alt="Second slide" />
+				<img
+					className="d-block m-auto text=Second slide bg-dark"
+					style={{ width: "400", height: "400" }}
+					src="./FirebaeEssentialTraining.jpg"
+					alt="Second slide"
+				/>
 
 				<Carousel.Caption>
 					<h3>Second slide label</h3>
@@ -20,7 +30,12 @@ export const CarouselComp = () => {
 				</Carousel.Caption>
 			</Carousel.Item>
 			<Carousel.Item>
-				<img className="d-block w-100" src="holder.js/800x400?text=Third slide&bg=20232a" alt="Third slide" />
+				<img
+					className="d-block m-auto text=Third slide bg-primary"
+					style={{ width: "400", height: "400" }}
+					src="./BecomeAReactDeveloper.jpg"
+					alt="Third slide"
+				/>
 
 				<Carousel.Caption>
 					<h3>Third slide label</h3>
