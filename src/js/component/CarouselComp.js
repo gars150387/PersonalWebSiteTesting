@@ -8,7 +8,7 @@ export const CarouselComp = () => {
 				<img
 					className="d-block m-auto text=First slide bg-success"
 					style={{ width: "400", height: "400" }}
-					src=""
+					src="./1624373134895.jpg"
 					alt="First slide"
 				/>
 				<Carousel.Caption>
@@ -20,7 +20,7 @@ export const CarouselComp = () => {
 				<img
 					className="d-block m-auto text=Second slide bg-dark"
 					style={{ width: "400", height: "400" }}
-					src="./FirebaeEssentialTraining.jpg"
+					src="./gustavo-san-francisco.jpg"
 					alt="Second slide"
 				/>
 
@@ -33,7 +33,7 @@ export const CarouselComp = () => {
 				<img
 					className="d-block m-auto text=Third slide bg-primary"
 					style={{ width: "400", height: "400" }}
-					src="./BecomeAReactDeveloper.jpg"
+					src="./meAndMyWife.jpg"
 					alt="Third slide"
 				/>
 
