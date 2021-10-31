@@ -4,7 +4,14 @@ import "../../styles/home.scss";
 import { CarouselComp } from "../component/CarouselComp";
 
 export const Home = () => (
-	<div className="text-center mt-5">
+	<>
+	<Breadcrumb>
+			<Breadcrumb.Item href="#">Home</Breadcrumb.Item>
+			<Breadcrumb.Item href="https://getbootstrap.com/docs/4.0/components/breadcrumb/">
+				Library
+			</Breadcrumb.Item>
+			<Breadcrumb.Item active>Data</Breadcrumb.Item>
+		</Breadcrumb>
 		<CarouselComp />
-	</div>
+		</>
 );
