@@ -8,7 +8,7 @@ export const Projects = () => {
 			<Row className="m-auto">
 				<Col className="m-auto">
 					<Card>
-						<Card.Img style={{ width: "35px", height: "35px" }} variant="top" src="rigo-baby.jpg" />
+						<Card.Img style={{ width: "35px", height: "35px" }} variant="top" src="rigo-baby.jpg" rounded />
 						<Card.Body>
 							<Card.Text>
 								Some quick example text to build on the card title and make up the bulk of the cards
