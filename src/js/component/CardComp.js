@@ -9,6 +9,8 @@ import "../../img/ReactBuildingAnInterface.jpg";
 import "../../img/ReactComponentsContextAndAccessibility.jpg";
 import "../../img/ReactEcosystems.jpg";
 import "../../img/ReactHooks.jpg";
+import "../../img/ReactTestingAndDebugging.jpg";
+import "../../img/ReactjsEssentialTraining.jpg";
 
 export const CardComp = ({ title, company, link, img }) => {
 	return (
@@ -17,12 +19,12 @@ export const CardComp = ({ title, company, link, img }) => {
 				return (
 					<ul key={item.id}>
 						<li className="m-auto">
-							<Card md={6} className="m-auto" style={{ width: "65%" }}>
+							<Card md={6} className="m-auto" style={{ width: "40%" }}>
+								<Card.Title className="text-center">{item.title}</Card.Title>
 								<Card.Img variant="top" src={`./${item.img}.jpg`} />
 								<Card.Body>
-									<Card.Title>{item.title}</Card.Title>
-									<Card.Text>{item.company}</Card.Text>
-									<Button className="m-auto" variant="primary" href={item.link}>
+									<Card.Text>Company issued: {item.company}</Card.Text>
+									<Button className="m-auto" variant="primary" href={item.href}>
 										Click and Check it out
 									</Button>
 								</Card.Body>
