@@ -13,16 +13,16 @@ import "../../img/ReactHooks.jpg";
 export const CardComp = ({ title, company, link, img }) => {
 	return (
 		<>
-			{DataCertifications.map(index => {
+			{DataCertifications.map(item => {
 				return (
-					<ul key={index}>
+					<ul key={item.id}>
 						<li className="m-auto">
-							<Card md={6} className="m-auto" style={{ width: "18rem" }}>
-								<Card.Img variant="top" src={`./${img}.jpg`} />
+							<Card md={6} className="m-auto" style={{ width: "65%" }}>
+								<Card.Img variant="top" src={`./${item.img}.jpg`} />
 								<Card.Body>
-									<Card.Title>{title}</Card.Title>
-									<Card.Text>{company}</Card.Text>
-									<Button variant="primary" href={link}>
+									<Card.Title>{item.title}</Card.Title>
+									<Card.Text>{item.company}</Card.Text>
+									<Button className="m-auto" variant="primary" href={item.link}>
 										Click and Check it out
 									</Button>
 								</Card.Body>
