@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 export const AboutMe = () => {
 	return (
 		<div className="">
-			<Row xs={1} md={2}>
-				<Col>
+			<Row>
+				<Col xs={12} md={8}>
 					<Card className="justify-content-start" style={{ width: "60%", margin: "auto" }}>
 						<Card.Img
 							className="justify-content-end"
@@ -22,7 +22,7 @@ export const AboutMe = () => {
 					</Card>
 				</Col>
 				<Col>
-					<Card className="justify-content-start" style={{ width: "60%", margin: "auto" }}>
+					{/* <Card className="justify-content-start" style={{ width: "60%", margin: "auto" }}>
 						<Card.Img
 							className="justify-content-end"
 							style={{ width: "55%", height: "50%" }}
@@ -33,7 +33,7 @@ export const AboutMe = () => {
 							<Card.Title>This is Me!</Card.Title>
 							<Card.Text>Here is the part where I tell you my story!</Card.Text>
 						</Card.Body>
-					</Card>
+					</Card> */}
 				</Col>
 			</Row>
 			<Row>
