@@ -1,12 +1,17 @@
 import React from "react";
-import { Breadcrumb } from "react-bootstrap";
+import { Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 export const AboutMe = () => {
 	return (
 		<>
-			<img className="justify-content-end" src="gustavo-san-francisco.jpg" rounded />
-			<p>Hello World this is me!</p>
+			<Card style={{ width: "75%" }}>
+				<Card.Img variant="bottom" src="rigo-baby.jpg" />
+				<Card.Body>
+					<Card.Title>Card Title</Card.Title>
+					<Card.Text>Here is the part where I tell you my story!</Card.Text>
+				</Card.Body>
+			</Card>
 		</>
 	);
 };
