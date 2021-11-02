@@ -1,14 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+// import "../../styles/navbarComp.scss";
 import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap";
 
 export const NavbarComp = () => {
 	return (
 		<Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
 			<Container>
-				<Navbar.Brand href="#home" position="top-start">
-					<Link to="/">Gustavo Rodriguez</Link>
+				<Navbar.Brand position="top-start">
+					<Link to="/">
+						<p className="text-white">Gustavo Rodriguez</p>
+					</Link>
 				</Navbar.Brand>
 				<Navbar.Toggle aria-controls="responsive-navbar-nav" />
 				<Navbar.Collapse id="responsive-navbar-nav" position="top-end" className="justify-content-end">
