@@ -24,8 +24,11 @@ export const CardComp = ({ title, company, link, img }) => {
 				return (
 					<ul key={item.id}>
 						<li className="m-auto">
-							<Card md={6} className="m-auto" style={{ width: "40%" }}>
-								<Card.Title className="text-center">{item.title}</Card.Title>
+							<Card
+								md={6}
+								className="m-auto"
+								style={{ width: "40%", borderTop: "white", borderLeft: "white", borderRight: "white" }}>
+								<Card.Title className="text-center bg-gray">{item.title}</Card.Title>
 								<Card.Img variant="top" src={`./${item.img}.jpg`} />
 								<Card.Body>
 									<Card.Text>Company issued: {item.company}</Card.Text>
