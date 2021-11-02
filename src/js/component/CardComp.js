@@ -30,7 +30,10 @@ export const CardComp = ({ title, company, link, img }) => {
 						<Card.Title className="text-center bg-gray">{item.title}</Card.Title>
 						<Card.Img variant="top" src={`./${item.img}.jpg`} />
 						<Card.Body>
-							<Card.Text>Company issued: {item.company}</Card.Text>
+							<Card.Text>
+								{" "}
+								<h5>{item.company}</h5>
+							</Card.Text>
 							<Button className="m-auto" variant="primary" href={item.href}>
 								Click and Check it out
 							</Button>
