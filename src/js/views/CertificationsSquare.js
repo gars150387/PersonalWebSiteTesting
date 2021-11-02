@@ -1,6 +1,6 @@
 import React from "react";
 import { CardCompSquare } from "../component/CardCompSquare";
-import { Row, Col } from "react-bootstrap";
+import { Container, Col, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 export const CertificationsSquare = item => {
@@ -16,7 +16,13 @@ export const CertificationsSquare = item => {
 					</Link>
 				</Col>
 			</Row>
-			<CardCompSquare key={item.title} />
+			<Container key={item.id}>
+				<Row xs="auto">
+					<Col>
+						<CardCompSquare key={item.title} />
+					</Col>
+				</Row>
+			</Container>
 		</>
 	);
 };
