@@ -5,7 +5,7 @@ import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap";
 
 export const NavbarComp = () => {
 	return (
-		<Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+		<Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" sticky="top">
 			<Container>
 				<Navbar.Brand position="top-start">
 					<Link to="/">

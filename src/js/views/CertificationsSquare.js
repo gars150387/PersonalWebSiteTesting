@@ -1,6 +1,6 @@
 import React from "react";
 import { CardCompSquare } from "../component/CardCompSquare";
-import { Container, Col, Row } from "react-bootstrap";
+import { Col, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 export const CertificationsSquare = item => {
