@@ -22,23 +22,20 @@ export const CardComp = ({ title, company, link, img }) => {
 		<>
 			{DataCertifications.map(item => {
 				return (
-					<ul key={item.id}>
-						<li className="m-auto">
-							<Card
-								md={6}
-								className="m-auto"
-								style={{ width: "40%", borderTop: "white", borderLeft: "white", borderRight: "white" }}>
-								<Card.Title className="text-center bg-gray">{item.title}</Card.Title>
-								<Card.Img variant="top" src={`./${item.img}.jpg`} />
-								<Card.Body>
-									<Card.Text>Company issued: {item.company}</Card.Text>
-									<Button className="m-auto" variant="primary" href={item.href}>
-										Click and Check it out
-									</Button>
-								</Card.Body>
-							</Card>
-						</li>
-					</ul>
+					<Card
+						key={item.id}
+						md={6}
+						className="m-auto"
+						style={{ width: "40%", borderTop: "white", borderLeft: "white", borderRight: "white" }}>
+						<Card.Title className="text-center bg-gray">{item.title}</Card.Title>
+						<Card.Img variant="top" src={`./${item.img}.jpg`} />
+						<Card.Body>
+							<Card.Text>Company issued: {item.company}</Card.Text>
+							<Button className="m-auto" variant="primary" href={item.href}>
+								Click and Check it out
+							</Button>
+						</Card.Body>
+					</Card>
 				);
 			})}
 		</>

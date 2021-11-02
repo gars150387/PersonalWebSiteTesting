@@ -22,7 +22,10 @@ export const CardCompSquare = ({ title, company, link, img }) => {
 		<>
 			{DataCertifications.map(item => {
 				return (
-					<Card className="m-auto" style={{ width: "70%" }} key={item.title}>
+					<Card
+						className="m-auto"
+						style={{ width: "70%", borderTop: "white", borderLeft: "white" }}
+						key={item.title}>
 						<Card.Title className="text-center">{item.title}</Card.Title>
 						<Card.Img variant="top" src={`./${item.img}.jpg`} />
 						<Card.Body>

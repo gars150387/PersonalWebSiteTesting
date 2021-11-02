@@ -16,13 +16,9 @@ export const CertificationsSquare = item => {
 					</Link>
 				</Col>
 			</Row>
-			<Container key={item.id}>
-				<Row xs="auto">
-					<Col>
-						<CardCompSquare key={item.title} />
-					</Col>
-				</Row>
-			</Container>
+			<Col xs={4} className="mr-3">
+				<CardCompSquare key={item.title} />
+			</Col>
 		</>
 	);
 };
