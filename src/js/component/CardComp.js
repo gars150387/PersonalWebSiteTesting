@@ -10,13 +10,12 @@ import "../../img/ReactComponentsContextAndAccessibility.jpg";
 import "../../img/ReactEcosystems.jpg";
 import "../../img/ReactHooks.jpg";
 import "../../img/ReactTestingAndDebugging.jpg";
-import "../../img/ReactjsEssentialTraining.jpg";
+import "../../img/ReactEssentialTraining.jpg";
 import "../../img/NodejsEssentialTraining.jpg";
 import "../../img/DevelopingACriticalThinkingMindset.jpg";
 import "../../img/FullStackWebDeveloperCertificationMiamiDadeCollege.jpg";
 import "../../img/ReactDesignPatterns.jpg";
 import "../../img/ReactCreatingAndHostingAFullStackSite.jpg";
-import "../../img/ReactEssentialTraining.jpg";
 
 export const CardComp = ({ title, company, link, img }) => {
 	return (

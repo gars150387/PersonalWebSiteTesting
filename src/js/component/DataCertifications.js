@@ -115,6 +115,6 @@ export const DataCertifications = [
 		title: "Full Stack Web Developer",
 		company: "Miami Dade College in partnered with 4Geeks Academy",
 		href: "https://www.mdc.edu/ce/technology/",
-		img: "FullStackWebDeveloper"
+		img: "FullStackWebDeveloperCertificationMiamiDadeCollege"
 	}
 ];
