@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 import { Home } from "./views/home";
 import { Certifications } from "./views/Certifications";
+import { CertificationsSquare } from "./views/CertificationsSquare";
 import { Projects } from "./views/Projects";
 import injectContext from "./store/appContext";
 import { AboutMe } from "./views/AboutMe";
@@ -30,6 +31,9 @@ const Layout = () => {
 					</Route>
 					<Route exact path="/certifications">
 						<Certifications />
+					</Route>
+					<Route exact path="/certifications/Square">
+						<CertificationsSquare />
 					</Route>
 					<Route exact path="/aboutMe">
 						<AboutMe />

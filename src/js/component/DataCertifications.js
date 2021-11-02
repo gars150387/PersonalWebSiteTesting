@@ -86,14 +86,14 @@ export const DataCertifications = [
 			"https://www.linkedin.com/learning/react-components-context-and-accessibility/welcome?autoAdvance=true&autoSkip=false&autoplay=true&resume=true&u=107513458",
 		img: "ReactComponentsContextAndAccessibility"
 	},
-	{
-		id: "012",
-		title: "Vanilla Javascript Client-sides Data storage",
-		company: "LinkedIn Learning",
-		href:
-			"https://www.linkedin.com/learning/vanilla-javascript-client-side-data-storage/javascript-client-side-storage-demystified?autoAdvance=true&autoSkip=false&autoplay=true&resume=true&u=107513458",
-		img: "VanillaJavacriptClientSideDataStorage"
-	},
+	// {
+	// 	id: "012",
+	// 	title: "Vanilla Javascript Client-sides Data storage",
+	// 	company: "LinkedIn Learning",
+	// 	href:
+	// 		"https://www.linkedin.com/learning/vanilla-javascript-client-side-data-storage/javascript-client-side-storage-demystified?autoAdvance=true&autoSkip=false&autoplay=true&resume=true&u=107513458",
+	// 	img: "VanillaJavacriptClientSideDataStorage"
+	// },
 	{
 		id: "013",
 		title: "JavaScript Code Challenges",

@@ -1,9 +1,9 @@
 import React from "react";
-import { CardComp } from "../component/CardComp";
+import { CardCompSquare } from "../component/CardCompSquare";
 import { Row, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
-export const Certifications = item => {
+export const CertificationsSquare = item => {
 	return (
 		<>
 			<Row className="justify-content-center">
@@ -16,7 +16,7 @@ export const Certifications = item => {
 					</Link>
 				</Col>
 			</Row>
-			<CardComp key={item.title} />
+			<CardCompSquare key={item.title} />
 		</>
 	);
 };
