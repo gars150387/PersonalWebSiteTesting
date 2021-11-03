@@ -39,6 +39,13 @@ export const Projects = () => {
 							click here
 						</button>
 					</h5> */}
+					<ReactPlayer
+						autoPlay={true}
+						className="d-flex m-auto mt-4 rouned border-solid border-transparency"
+						controls
+						url="https://youtu.be/C7MNY1QSfyM?t=2"
+						src=""
+					/>
 				</Col>
 			</Row>
 		</>
