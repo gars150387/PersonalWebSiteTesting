@@ -39,6 +39,13 @@ export const Projects = () => {
 							click here
 						</button>
 					</h5> */}
+					<br />
+					<Card.Body>
+						<Card.Text>
+							Some quick example text to build on the card title and make up the bulk of the cards
+							content.
+						</Card.Text>
+					</Card.Body>
 					<ReactPlayer
 						autoPlay={true}
 						className="d-flex m-auto mt-4 rouned border-solid border-transparency"
