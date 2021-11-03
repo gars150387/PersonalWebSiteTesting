@@ -16,7 +16,7 @@ export const CertificationsSquare = item => {
 					</Link>
 				</Col>
 			</Row>
-			<Col xs={4} className="mr-3">
+			<Col sm style={{ marginLeft: "30px" }}>
 				<CardCompSquare key={item.title} />
 			</Col>
 		</>
