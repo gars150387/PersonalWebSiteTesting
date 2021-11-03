@@ -30,15 +30,15 @@ export const Projects = () => {
 						autoPlay={true}
 						className="d-flex m-auto rouned border-solid border-transparency"
 						controls
-						url="https://cdn.loom.com/sessions/thumbnails/45c055eff97c49e6aa79d7b2e9d2c4ff-00001.mp4#t=0.1"
+						url="https://www.youtube.com/watch?v=VFWNSNzJE4o"
 						src=""
 					/>
-					<h5 className="text-center">
+					{/* <h5 className="text-center">
 						To watch full video of the progression of my website,{" "}
-						<button className="bg-success rounded" href="https://www.loom.com/my-videos">
+						<button className="bg-secundary rounded mt-2" href="https://www.loom.com/my-videos">
 							click here
 						</button>
-					</h5>
+					</h5> */}
 				</Col>
 			</Row>
 		</>
