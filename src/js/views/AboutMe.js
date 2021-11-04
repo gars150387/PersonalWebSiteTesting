@@ -23,7 +23,7 @@ export const AboutMe = () => {
 							src="rigo-baby.jpg"
 						/> */}
 					<Card.Body className="text-start">
-						<Card.Title>This is Me!</Card.Title>
+						<Card.Title>Add Motion to provide animetion to this paragraph</Card.Title>
 						<Card.Text>Here is the part where I tell you my story!</Card.Text>
 					</Card.Body>
 					{/* </Card> */}
