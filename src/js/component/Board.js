@@ -19,9 +19,9 @@ export const Board = props => {
 		</div>
 	);
 };
-Board.prototype ={
+Board.prototype = {
 	id: PropTypes.number,
 	className: PropTypes.string,
 	draggable: PropTypes.boolean,
 	children: PropTypes.element.isRequired
-}
+};

@@ -1,4 +1,5 @@
 import React from "react";
+import { checkPropTypes} from "prop-types";
 
 export const Drag = props => {
 	const dragStart = e => {
@@ -23,9 +24,9 @@ export const Drag = props => {
 		</div>
 	);
 };
-Drag.prototype ={
+Drag.prototype = {
 	id: PropTypes.number,
 	className: PropTypes.string,
 	draggable: PropTypes.boolean,
 	children: PropTypes.element.isRequired
-}
+};
