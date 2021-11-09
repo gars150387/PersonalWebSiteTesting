@@ -116,5 +116,13 @@ export const DataCertifications = [
 		href:
 			"https://www.linkedin.com/learning/react-js-essential-training/building-modern-user-interfaces-with-react?autoAdvance=true&autoSkip=false&autoplay=true&resume=true&u=107513458",
 		img: "ReactEssentialTraining"
+	},
+	{
+		id: "015",
+		title: "React Essential Training",
+		company: "LinkedIn Learning",
+		href:
+			"https://www.linkedin.com/learning/react-js-essential-training/building-modern-user-interfaces-with-react?autoAdvance=true&autoSkip=false&autoplay=true&resume=true&u=107513458",
+		img: "ReactEssentialTraining"
 	}
 ];
